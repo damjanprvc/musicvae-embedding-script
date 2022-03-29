@@ -1,0 +1,21 @@
+{
+  "name": "musicvae-embedding-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start-midime": "node midime-script.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Damjan Prvulovic",
+  "license": "ISC",
+  "dependencies": {
+    "@magenta/music": "^1.23.1",
+    "buffer": "^6.0.3",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
